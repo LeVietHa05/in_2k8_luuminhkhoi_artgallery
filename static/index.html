@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DỰ ÁN “MỘT BỨC VẼ - TRIỆU NIỀM VUI" - Vũ Minh Anh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.167.1/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.167.1/examples/jsm/",
+                "three/poiterLockControls": "https://cdn.jsdelivr.net/npm/three@0.167.1/examples/jsm/controls/PointerLockControls.js"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="background_menu" style="z-index: 10;">
+        <div id="menu">
+            <!-- <div class="img_container" id="">
+                <img src="./img/banner.png" alt="dong lua" id="">
+            </div> -->
+            <div class="content" style="padding-top: 24px;">
+                <h1 class="roboto-bold" style="margin-bottom: 0;">
+                    Project “Where the Light Shines"
+                </h1>
+                <h1 class="roboto-bold" style="margin-bottom: 0;">
+                    Tracing life on the path of day
+                </h1>
+                <!-- <div>
+                    <div class="qwitcher-grypen-regular" style="font-size: 50px;">
+                        Phụ nữ trong thơ ca và trong mắt em
+                    </div>
+                    <div class="qwitcher-grypen-regular" style="font-size: 50px; margin-top: -30px;">
+                        Women in folk songs and my eyes
+                    </div>
+                </div> -->
+                <!-- <hr width="70%"> -->
+                <p style="margin-top: 24px; font-size: 18px;">By Luu Minh Khoi</p>
+            </div>
+
+            <div id="play_button" style="font-size: 1.5em;">
+                <p style="margin-bottom: 0;">Tham quan triển lãm / Enter the Gallery</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="audio-control">
+        <button id="start-audio">Start Audio Guide</button>
+        <button id="stop-audio">Stop Audio Guide</button>
+    </div> -->
+    <div id="translate_button">
+        <div style=" display: inline-block; font-size: 24px;">
+            <span class="material-symbols-outlined">
+                translate
+            </span> - VI
+        </div>
+    </div>
+
+    <div id="intruction_con">
+        <span class="material-symbols-outlined" id="show_intruction">
+            help
+        </span>
+        <div class="plr-1em" id="instruction_text" style="display: block;">
+            <p>Hướng dẫn / Intruction</p>
+            <p>Nhấn phím mũi tên hoặc WASD để di chuyển / Use
+                <span class="material-symbols-outlined" style="float: center;">
+                    open_with
+                </span>
+                or
+                WASD to move around
+            </p>
+            <p>Sử dụng chuột để quan sát / Look around with mouse</p>
+            <p>Bấm F để hiện/ẩn chuột / Press F to hide/unhide the mouse</p>
+        </div>
+    </div>
+
+    <div id="painting_info">
+        <div
+            style="width:25%; display: flex; flex-direction: column; justify-content: space-between; overflow-y: auto;">
+            <div>
+                <h3 style="font-size: 30px; margin-top: 12px; line-height: 60px;" class="playwrite-cu"
+                    id="painting_title"></h3>
+                <p><i id="painting_poem"></i></p><br>
+                <p id="painting_description"></p>
+                <hr>
+                <p><span id="translate-code">Mã Tranh</span>: <i id="paintingID"></i></p>
+                <p id="painting_material"></p>
+                <p id="painting_size"></p>
+                <p>Year: <i id="painting_year"></i></p>
+            </div>
+            <div id="isSold"
+                style="border: red 10px solid; padding: 30px; text-align: center; font-size: 40px;color: red; border-radius: 12px;">
+                Đã Bán
+            </div>
+            <div id="purchare_form_div" class="p-1em">
+                <legend style="font-size: 30px" id="translate-legend">Nếu bạn có hứng thú với bức tranh</legend>
+                <form action="/" method="post" id="purchare_form">
+                    <div class="row g-3 mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Tên - Name" aria-label="Tên"
+                                name="person_name" id="person_name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Số điện thoại - Phone number"
+                                aria-label="số điện thoại" name="phoneNum" id="phoneNum" required>
+                        </div>
+                    </div>
+                    <!-- <div class="mb-3">
+                        <label for="person_name" class="form-label">Tên - Your Name: </label>
+                        <input type="text" class="form-control" name="person_name" id="person_name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneNum" class="form-label">Số điện thoại - Your Phone Number: </label>
+                        <input type="number" class="form-control" name="phoneNum" id="phoneNum" required>
+                    </div> -->
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email_address"
+                            placeholder="Địa chỉ Email (Nên dùng Gmail)">
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="painting_price" class="col-sm-6 col-form-label" id="translate-pricetag">Giá khởi
+                            điểm: </label>
+                        <div class="col-sm-6 ">
+                            <input type="text" readonly class="form-control-plaintext text-light" id="painting_price"
+                                value="123">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control" id="price" value="1500000" step="100000">
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="font-size: 1.4em">Đặt Mua -
+                        Purchare</button>
+                </form>
+            </div>
+        </div>
+        <div class="imgInfo plr-1em">
+            <img src="" alt="" style="height:100%" id="painting_link">
+            <span class="material-symbols-outlined rotateOnHover" id="close_painting_info"
+                style="position: absolute; top: 12px; right: 12px; padding: 12px; font-size: 2em; cursor: pointer; transition:all 0.5s ease-in-out;">
+                close
+            </span>
+        </div>
+
+        <!-- <div style="width:20%; display: flex; justify-content: flex-end; flex-direction: column; text-align:right">
+            <h3 style="font-size: 40px;" class="dancing-script" id="painting_title_en">english version</h3>
+            <p><i id="painting_poem_en"></i></p><br>
+            <p id="painting_description_en"></p>
+            <hr>
+            <p>Year: <i id="painting_year"></i></p>
+            <p id="painting_material"></p>
+            <p id="painting_size"></p>
+        </div> -->
+    </div>
+    <script>
+        let soldPainting = [];
+        let purchare_btn = document.querySelector('#purchare_form button');
+        purchare_btn.addEventListener("click", (e) => {
+            purchare_btn.textContent = "Đang xử lý...";
+            e.preventDefault();
+            soldPainting.push(document.querySelector('#paintingID').textContent);
+            let email = document.querySelector('#email_address').value
+            if (!validateEmail(email)) {
+                alert("Xin vui lòng nhập mail hợp lệ!")
+                return;
+            }
+            let phone = document.querySelector('#phoneNum').value
+            if (!validatePhone(phone)) {
+                alert("Xin vui lòng nhập số điện thoại hợp lệ!")
+                return;
+            }
+            fetch("/", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: document.querySelector('#person_name').value,
+                    phone: phone,
+                    email: email,
+                    paintingID: document.querySelector('#paintingID').textContent,
+                    price: document.querySelector('#price').value
+                })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    alert(data.mess);
+                    if (data.status == "success") {
+                        document.querySelector("#purchare_form button").disabled = true;
+                        document.querySelector('#isSold').style.display = "block";
+                        purchare_btn.textContent = "Đã đặt mua";
+                    } else {
+                        purchare_btn.textContent = "Đặt Mua - Purchare";
+                    }
+                })
+        })
+
+        function validateEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        function validatePhone(phone) {
+            if (phone.length != 10) {
+                return false;
+            }
+
+            const phoneRegex = /^\d{10}$/;
+            return phoneRegex.test(phone);
+        }
+    </script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

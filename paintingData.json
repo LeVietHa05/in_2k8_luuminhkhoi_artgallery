@@ -1,0 +1,516 @@
+[
+  {
+    "imgSrc": "./artworkResized/banner.png",
+    "width": 3,
+    "height": 2,
+    "depth": 0.05,
+    "position": {
+      "x": 0,
+      "y": 1.3,
+      "z": 9.54
+    },
+    "rotationY": 3.141592653589793,
+    "info": {
+      "title": "Tác giả: Lưu Minh Khôi (Nam)",
+      "title_en": "Author: Luu Minh Khoi (M)",
+      "poem": "A senior at Nguyen Sieu High School, was born and raised in Vietnam, where the land, people, and traditions became the wellspring of his inspiration. Guided by principles of the 19th-century Impressionist movement, Khoi's paintings depict the authentic light, memory, and spirit of his homeland, as he seeks to capture not only what the eyes see but what the heart feels. <br>This collection traces Khoi's artistic journey from 2023 to 2025. While his techniques have steadily matured over time, the sincerity and reverence at the heart of his works remain unchanged. It is this vision, woven into each brush stroke, that translates the warm and rich living palette of Vietnam into a timeless beauty on the canvas.",
+      "description": "This collection traces Khoi's artistic journey from 2023 to 2025. While his techniques have steadily matured over time, the sincerity and reverence at the heart of his works remain unchanged. It is this vision, woven into each brush stroke, that translates the warm and rich living palette of Vietnam into a timeless beauty on the canvas.",
+      "year": "2007",
+      "paintingID": 0,
+      "material": "Nơi sinh: Hà Nội",
+      "size": "",
+      "price": "",
+      "isBuyAble": false,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork1.webp",
+    "width": 0.8,
+    "height": 1.2,
+    "depth": 0.05,
+    "position": {
+      "x": -6.95,
+      "y": 1.3,
+      "z": 0
+    },
+    "rotationY": 1.570796326794896,
+    "info": {
+      "title": "Lily",
+      "title_en": "Lily",
+      "poem": "",
+      "poem_en": "",
+      "description": "My journey into Impressionist painting began with the lilies that had always stood in the stillness of home, white as morning clouds. With care in her hands, my mother would place each stem, arranging both beauty and memory. At first, I thought I was only capturing the flowers’ form. But somewhere between the first sketch and the last dab of color, there appeared the light falling gently on the vase, the drifting fragrance of childhood, the quiet love that lives in the heart of our everyday life.",
+      "description_en": "My journey into Impressionist painting began with the lilies that had always stood in the stillness of home, white as morning clouds. With care in her hands, my mother would place each stem, arranging both beauty and memory. At first, I thought I was only capturing the flowers’ form. But somewhere between the first sketch and the last dab of color, there appeared the light falling gently on the vase, the drifting fragrance of childhood, the quiet love that lives in the heart of our everyday life.",
+      "year": "2/2023",
+      "paintingID": 1,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "50x70cm",
+      "price": "3000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork2.webp",
+    "width": 0.8,
+    "height": 1.2,
+    "depth": 0.05,
+    "position": {
+      "x": -4,
+      "y": 1.3,
+      "z": 2.5
+    },
+    "rotationY": -1.570796326794896,
+    "info": {
+      "title": "Garden cosmos",
+      "title_en": "Garden cosmos",
+      "poem_en": "",
+      "poem": "",
+      "description": "Long before lifting my brush, I sat silently noticing what’s hidden in plain sight. Water bent the stems. Light curved along the glass. Shadows pooled softly at the base. Who knew a vase would be harder to do justice to than the flowers it held.",
+      "description_en": "Long before lifting my brush, I sat silently noticing what’s hidden in plain sight. Water bent the stems. Light curved along the glass. Shadows pooled softly at the base. Who knew a vase would be harder to do justice to than the flowers it held.",
+      "year": "3/2023",
+      "paintingID": 2,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "40x50cm",
+      "price": "3000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork3.webp",
+    "width": 0.8,
+    "height": 1.2,
+    "depth": 0.05,
+    "position": {
+      "x": -3,
+      "y": 1.3,
+      "z": -4
+    },
+    "rotationY": 3.141592653589793,
+    "info": {
+      "title": "Sublime in tranquility",
+      "title_en": "Sublime in tranquility",
+      "poem": "",
+      "poem_en": "",
+      "description": "I visited Ba Vi for the first time in sixth grade and took a quick photo of this waterfall. Years later, I rediscovered the image and the awe that came with it. Painting this piece felt like standing amid nature again, hearing the water rush and the trees breathe.",
+      "description_en": "I visited Ba Vi for the first time in sixth grade and took a quick photo of this waterfall. Years later, I rediscovered the image and the awe that came with it. Painting this piece felt like standing amid nature again, hearing the water rush and the trees breathe.",
+      "year": "5/2023",
+      "paintingID": 3,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "50x70cm",
+      "price": "",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork4.webp",
+    "width": 0.8,
+    "height": 1.2,
+    "depth": 0.05,
+    "position": {
+      "x": -3,
+      "y": 1.3,
+      "z": -6.95
+    },
+    "rotationY": 0,
+    "info": {
+      "title": "White Cliffs of Dover",
+      "title_en": "White Cliffs of Dover",
+      "poem": "",
+      "poem_en": "",
+      "description": "My take on the White Cliffs of Dover. The shadows could have been more defined and the flowerbeds more evenly spread; still, the excitement was palpable when I glimpsed at a faraway land I had never set foot in.",
+      "description_en": "My take on the White Cliffs of Dover. The shadows could have been more defined and the flowerbeds more evenly spread; still, the excitement was palpable when I glimpsed at a faraway land I had never set foot in.",
+      "year": "6/2023",
+      "paintingID": 4,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "50x70cm",
+      "price": "",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork5.webp",
+    "width": 0.8,
+    "height": 1.2,
+    "depth": 0.05,
+    "position": {
+      "x": 4,
+      "y": 1.3,
+      "z": 0
+    },
+    "rotationY": 1.570796326794896,
+    "info": {
+      "title": "Hanoi's Old Quarter",
+      "title_en": "Hanoi's Old Quarter",
+      "poem": "",
+      "description": "With time, the Old Quarter only makes the heart grow fonder. I was drawn to the rhythm of life tucked away in a balcony beneath lush green canopies, a rustic charm that endures no matter how the seasons change in this city.",
+      "year": "7/2023",
+      "paintingID": 5,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "50x70cm",
+      "price": "",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork6.webp",
+    "width": 0.8,
+    "height": 1.2,
+    "depth": 0.05,
+    "position": {
+      "x": -3,
+      "y": 1.3,
+      "z": 4
+    },
+    "rotationY": 0,
+    "info": {
+      "title": "Hydrangea",
+      "title_en": "Hydrangea",
+      "poem": "",
+      "description": "Purple speaks of sweet romance. In Da Lat, I found myself captivated by the hydrangea’s tender beauty, a fragment of which I now keep with me, forever alive on the canvas.",
+      "description_en": "Purple speaks of sweet romance. In Da Lat, I found myself captivated by the hydrangea’s tender beauty, a fragment of which I now keep with me, forever alive on the canvas.",
+      "year": "8/2023",
+      "paintingID": 6,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "50x70cm",
+      "price": "1000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork7.webp",
+    "width": 0.8,
+    "height": 1,
+    "depth": 0.05,
+    "position": {
+      "x": -4,
+      "y": 1.3,
+      "z": -2.5
+    },
+    "rotationY": -1.570796326794896,
+    "info": {
+      "title": "Sunflower",
+      "title_en": "Sunflower",
+      "poem": "",
+      "poem_en": "",
+      "description": "The sunflower leans to one side, a petal chipped, a stem curved. Yet despite its precarious stance, a gentle grace holds. Beauty does not live in perfection, but the subtle imbalances that make each moment complete.",
+      "description_en": "The sunflower leans to one side, a petal chipped, a stem curved. Yet despite its precarious stance, a gentle grace holds. Beauty does not live in perfection, but the subtle imbalances that make each moment complete.",
+      "year": "2/2024",
+      "paintingID": 7,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "50x70cm",
+      "price": "",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork8.webp",
+    "width": 0.8,
+    "height": 1,
+    "depth": 0.05,
+    "position": {
+      "x": -2,
+      "y": 1.3,
+      "z": -2.5
+    },
+    "rotationY": 1.570796326794896,
+    "info": {
+      "title": "By the window",
+      "title_en": "By the window",
+      "poem": "",
+      "poem_en": "",
+      "description": "A serendipitous pairing of a European-style window and Vietnamese marigolds, this piece weaves together two cultures half a world apart in enchanting unison.",
+      "description_en": "A serendipitous pairing of a European-style window and Vietnamese marigolds, this piece weaves together two cultures half a world apart in enchanting unison.",
+      "year": "5/2024",
+      "paintingID": 8,
+      "material": "Acylic on canvas",
+      "size": "40x50cm",
+      "price": "2000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork9.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": 3,
+      "y": 1.3,
+      "z": 4
+    },
+    "rotationY": 0,
+    "info": {
+      "title": "Village reverie",
+      "title_en": "Village reverie",
+      "poem": "",
+      "description": "My first tribute to Vietnam's highland communities, this piece was inspired by Sa Pa, a place where mountains rose like quiet guardians and colors brightened every corner. It was here that I met people whose days unfolded in harmony with the land, their laughter carried on crisp mountain air. The vibrant fabrics, the warm smiles, the grandeur of the northern landscape became the palette for my imagination",
+      "description_en": "My first tribute to Vietnam's highland communities, this piece was inspired by Sa Pa, a place where mountains rose like quiet guardians and colors brightened every corner. It was here that I met people whose days unfolded in harmony with the land, their laughter carried on crisp mountain air. The vibrant fabrics, the warm smiles, the grandeur of the northern landscape became the palette for my imagination",
+      "year": "8/2024",
+      "paintingID": 9,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "60x80cm",
+      "price": "3000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork10.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": 0,
+      "y": 1.3,
+      "z": -6.95
+    },
+    "rotationY": 0,
+    "info": {
+      "title": "Whispers of autumn",
+      "title_en": "Whispers of autumn",
+      "poem": "",
+      "description": "Amid the golden blaze, a H’Mong woman walks on fire-tinted leaves, her figure swaying with the weight of the wood on her back. Sunlight spills through the branches like liquid gold, leaving copper leaves to shimmer in the eye of the beholder.<br>So small, yet so brave.",
+      "description_en": "Amid the golden blaze, a H’Mong woman walks on fire-tinted leaves, her figure swaying with the weight of the wood on her back. Sunlight spills through the branches like liquid gold, leaving copper leaves to shimmer in the eye of the beholder.<br>So small, yet so brave.",
+      "year": "12/2024",
+      "paintingID": 10,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "60x80cm",
+      "price": "2000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork11.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": 3,
+      "y": 1.3,
+      "z": -6.95
+    },
+    "rotationY": 0,
+    "info": {
+      "title": "Verdant steps",
+      "title_en": "Verdant steps",
+      "poem": "",
+      "description": "I chose to depict the terraced fields in Ha Giang in a realist fashion, a living, breathing vision of the moment seedlings are sown. Mist drifts over the ridges, silence gathers in the folds of the earth, and a lone figure steps lightly across the red soil—a fragile line that seems to tether the vast sky to the waiting land.",
+      "description_en": "I chose to depict the terraced fields in Ha Giang in a realist fashion, a living, breathing vision of the moment seedlings are sown. Mist drifts over the ridges, silence gathers in the folds of the earth, and a lone figure steps lightly across the red soil—a fragile line that seems to tether the vast sky to the waiting land.",
+      "year": "3/2025",
+      "paintingID": 11,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "50x70cm",
+      "price": "3000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork12.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": 4.45,
+      "y": 1.3,
+      "z": 6.95
+    },
+    "rotationY": 3.141592653589793,
+    "info": {
+      "title": "Trace",
+      "title_en": "Trace",
+      "poem": "",
+      "description": "The painting draws from a photograph I captured on the road to Lao Cai—a scene steeped in solitude, where silence lingers beyond words.",
+      "description_en": "The painting draws from a photograph I captured on the road to Lao Cai—a scene steeped in solitude, where silence lingers beyond words.",
+      "year": "3/2025",
+      "paintingID": 12,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "40x50cm",
+      "price": "2000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork13.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": 2,
+      "y": 1.3,
+      "z": -2.5
+    },
+    "rotationY": -1.570796326794896,
+    "info": {
+      "title": "Spring beyond the Gate",
+      "title_en": "Spring beyond the Gate",
+      "poem": "",
+      "description": "Spring drifts into the village on a chilly breeze, bringing plum blossoms on the branches like scattered light. Someone is coming, carrying the weight of daily life, yet each step softened by the season’s gentle renewal.<br> The beginning of the year was portrayed on canvas as I saw it in real life: fresh, ardent, and filled with hope.",
+      "description_en": "Spring drifts into the village on a chilly breeze, bringing plum blossoms on the branches like scattered light. Someone is coming, carrying the weight of daily life, yet each step softened by the season’s gentle renewal.<br> The beginning of the year was portrayed on canvas as I saw it in real life: fresh, ardent, and filled with hope.",
+      "year": "4/2025",
+      "paintingID": 13,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "70x70cm",
+      "price": "3000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork14.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": 2,
+      "y": 1.3,
+      "z": 2.5
+    },
+    "rotationY": -1.570796326794896,
+    "info": {
+      "title": "Ascent in Amber",
+      "title_en": "Ascent in Amber",
+      "poem": "",
+      "description": "As the afternoon sun lingers, its golden light washes over the earthen walls, casting long, tender shadows. A woman ascends the stone steps, her back bent slightly beneath a bundle of firewood, each movement steady and unhurried. I have always held a deep admiration for the mountain people here, who toil tirelessly regardless of the weather. With my brush, I hope to express my humble respect and reverence for their unwavering dedication.",
+      "year": "6/2025",
+      "paintingID": 14,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "70x70cm",
+      "price": "1000000 - 2000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork15.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": -2,
+      "y": 1.3,
+      "z": 2.5
+    },
+    "rotationY": 1.570796326794896,
+    "info": {
+      "title": "Silent Anchorage",
+      "title_en": "Silent Anchorage",
+      "poem": "",
+      "description": "A fishing boat rests quietly, tethered to a single post after a long day at sea. Beneath the weight of dusk, its worn frame carries the memory of labor, the rhythm of tides, and the trust of those who sailed with it. The sky burns with orange light yet holds the hush of approaching storm clouds, casting a stillness that feels both fragile and eternal. For me, completing this piece was a meditation on vision and patience. Though more last-minute changes were made than I would have liked, it was in the acceptance of imperfections that art found its truest form.",
+      "description_en": "A fishing boat rests quietly, tethered to a single post after a long day at sea. Beneath the weight of dusk, its worn frame carries the memory of labor, the rhythm of tides, and the trust of those who sailed with it. The sky burns with orange light yet holds the hush of approaching storm clouds, casting a stillness that feels both fragile and eternal. For me, completing this piece was a meditation on vision and patience. Though more last-minute changes were made than I would have liked, it was in the acceptance of imperfections that art found its truest form.",
+      "year": "6/2025",
+      "paintingID": 15,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "70x70cm",
+      "price": "1000000 - 2000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork16.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": 3,
+      "y": 1.3,
+      "z": -4
+    },
+    "rotationY": 3.141592653589793,
+    "info": {
+      "title": "Nhà",
+      "title_en": "Nhà",
+      "poem": "",
+      "description": "Straw leans by the path, next to walls that wear the faded colors of time. A lone figure steps through the gate, carrying the weight of an ordinary day. Nothing calls for attention, yet everything belongs—simple, steady, and whole.",
+      "description_en": "Straw leans by the path, next to walls that wear the faded colors of time. A lone figure steps through the gate, carrying the weight of an ordinary day. Nothing calls for attention, yet everything belongs—simple, steady, and whole.",
+      "year": "2023",
+      "paintingID": 16,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "70x70cm",
+      "price": "2000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork17.webp",
+    "width": 0.6,
+    "height": 0.8,
+    "depth": 0.05,
+    "position": {
+      "x": -4.45,
+      "y": 1.3,
+      "z": 6.95
+    },
+    "rotationY": 3.141592653589793,
+    "info": {
+      "title": "Hoa",
+      "title_en": "Hoa",
+      "poem": "",
+      "description": "Earth and gold. The rapeseed flowers grown by the H’Mong people in Ha Giang already made for a striking centerpiece, but I also wanted to use a textured vase, a creation of the local ethnic people, to preserve the cultural soul of this painting.",
+      "description_en": "Earth and gold. The rapeseed flowers grown by the H’Mong people in Ha Giang already made for a striking centerpiece, but I also wanted to use a textured vase, a creation of the local ethnic people, to preserve the cultural soul of this painting.",
+      "year": "7/2025",
+      "paintingID": 17,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "60x80cm",
+      "price": "2000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  },
+  {
+    "imgSrc": "./img/artwork18.webp",
+    "width": 0.6,
+    "height": 0.6,
+    "depth": 0.05,
+    "position": {
+      "x": 6.95,
+      "y": 1.3,
+      "z": 0
+    },
+    "rotationY": -1.570796326794896,
+    "info": {
+      "title": "Thuyền 2",
+      "title_en": "Thuyền 2",
+      "poem": "Ai xui má đỏ , môi hồng <br>Để anh nhác thấy đem lòng thương yêu",
+      "description": "This painting is a tribute to the tireless fishermen of Vietnam. The boat, the faithful companion through countless tides, rests quietly beside the weathered pier, a silent witness to generations of fish, shrimp, and squids that have nourished the village. The late afternoon sun drapes the scene in a warm, golden glow, as the harbor breathes with the rhythm of labor and the resilience of life at sea. In this still moment, I seek to reveal not only the serene beauty of sunset, but the enduring spirit and character of those who call the waves their home.",
+      "description_en": "This painting is a tribute to the tireless fishermen of Vietnam. The boat, the faithful companion through countless tides, rests quietly beside the weathered pier, a silent witness to generations of fish, shrimp, and squids that have nourished the village. The late afternoon sun drapes the scene in a warm, golden glow, as the harbor breathes with the rhythm of labor and the resilience of life at sea. In this still moment, I seek to reveal not only the serene beauty of sunset, but the enduring spirit and character of those who call the waves their home.",
+      "year": "8/2025",
+      "paintingID": 18,
+      "material": "Acylic trên toan",
+      "material_en": "Acylic on canvas",
+      "size": "60X80cm",
+      "price": "1000000",
+      "isBuyAble": true,
+      "isBought": false
+    }
+  }
+]
