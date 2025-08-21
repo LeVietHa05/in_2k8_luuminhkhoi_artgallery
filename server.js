@@ -4,6 +4,11 @@ const fs = require('fs');
 const bodyParser = require('body-parser');
 
 require('dotenv').config();
+const PORT  = process.env.PORT
+if (!PORT) {
+    console.error('PORT is not defined in .env file');
+    process.exit(1);
+}
 
 const app = express();
 app.use(bodyParser.json());
@@ -50,6 +55,6 @@ app.post("/", async (req, res, next) => {
     res.json({ test: "oke" })
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('Server is running on port 3000');
 })
