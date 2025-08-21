@@ -32,7 +32,7 @@
     "position": {
       "x": -6.95,
       "y": 1.3,
-      "z": 0
+      "z": 4.5
     },
     "rotationY": 1.570796326794896,
     "info": {
@@ -58,9 +58,9 @@
     "height": 1,
     "depth": 0.05,
     "position": {
-      "x": -4,
+      "x": 6.95,
       "y": 1.3,
-      "z": 2.5
+      "z": 4.5
     },
     "rotationY": -1.570796326794896,
     "info": {
@@ -86,11 +86,11 @@
     "height": 1.4,
     "depth": 0.05,
     "position": {
-      "x": -3,
+      "x": 4,
       "y": 1.3,
-      "z": -4
+      "z": 0
     },
-    "rotationY": 3.141592653589793,
+    "rotationY": 1.570796326794896,
     "info": {
       "title": "Sublime in tranquility",
       "title_en": "Sublime in tranquility",
@@ -114,11 +114,11 @@
     "height": 1.4,
     "depth": 0.05,
     "position": {
-      "x": -3,
+      "x": -6.95,
       "y": 1.3,
-      "z": -6.95
+      "z": 0
     },
-    "rotationY": 0,
+    "rotationY": 1.570796326794896,
     "info": {
       "title": "White Cliffs of Dover",
       "title_en": "White Cliffs of Dover",
@@ -142,11 +142,11 @@
     "height": 1.4,
     "depth": 0.05,
     "position": {
-      "x": 4,
+      "x": 6.95,
       "y": 1.3,
       "z": 0
     },
-    "rotationY": 1.570796326794896,
+    "rotationY": -1.570796326794896,
     "info": {
       "title": "Hanoi's Old Quarter",
       "title_en": "Hanoi's Old Quarter",
@@ -197,7 +197,7 @@
     "position": {
       "x": -4,
       "y": 1.3,
-      "z": -2.5
+      "z": 0
     },
     "rotationY": -1.570796326794896,
     "info": {
@@ -277,7 +277,7 @@
     "height": 1.6,
     "depth": 0.05,
     "position": {
-      "x": 0,
+      "x": 1.4,
       "y": 1.3,
       "z": -6.95
     },
@@ -304,7 +304,7 @@
     "height": 1.4,
     "depth": 0.05,
     "position": {
-      "x": 3,
+      "x": -1.4,
       "y": 1.3,
       "z": -6.95
     },
@@ -331,11 +331,11 @@
     "height": 1,
     "depth": 0.05,
     "position": {
-      "x": 4.45,
+      "x": 2,
       "y": 1.3,
-      "z": 6.95
+      "z": -2.5
     },
-    "rotationY": 3.141592653589793,
+    "rotationY": -1.570796326794896,
     "info": {
       "title": "Trace",
       "title_en": "Trace",
@@ -358,11 +358,11 @@
     "height": 1.4,
     "depth": 0.05,
     "position": {
-      "x": 2,
+      "x": -4.2,
       "y": 1.3,
-      "z": -2.5
+      "z": -6.95
     },
-    "rotationY": -1.570796326794896,
+    "rotationY": 0,
     "info": {
       "title": "Spring beyond the Gate",
       "title_en": "Spring beyond the Gate",
@@ -385,11 +385,11 @@
     "height": 1.4,
     "depth": 0.05,
     "position": {
-      "x": 2,
+      "x": 4.2,
       "y": 1.3,
-      "z": 2.5
+      "z": -6.95
     },
-    "rotationY": -1.570796326794896,
+    "rotationY": 0,
     "info": {
       "title": "Ascent in Amber",
       "title_en": "Ascent in Amber",
@@ -438,11 +438,11 @@
     "height": 1.4,
     "depth": 0.05,
     "position": {
-      "x": 3,
+      "x": 6.95,
       "y": 1.3,
-      "z": -4
+      "z": -4.5
     },
-    "rotationY": 3.141592653589793,
+    "rotationY": -1.570796326794896,
     "info": {
       "title": "Nhà",
       "title_en": "Nhà",
@@ -465,11 +465,11 @@
     "height": 1.6,
     "depth": 0.05,
     "position": {
-      "x": -4.45,
+      "x": -6.95,
       "y": 1.3,
-      "z": 6.95
+      "z": -4.5
     },
-    "rotationY": 3.141592653589793,
+    "rotationY": 1.570796326794896,
     "info": {
       "title": "Hoa",
       "title_en": "Hoa",
@@ -492,9 +492,9 @@
     "height": 1.6,
     "depth": 0.05,
     "position": {
-      "x": 6.95,
+      "x": 2,
       "y": 1.3,
-      "z": 0
+      "z": 2.5
     },
     "rotationY": -1.570796326794896,
     "info": {
