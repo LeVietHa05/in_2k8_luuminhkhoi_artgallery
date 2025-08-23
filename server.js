@@ -4,7 +4,7 @@ const fs = require('fs');
 const bodyParser = require('body-parser');
 
 require('dotenv').config();
-const PORT  = process.env.PORT
+const PORT = process.env.PORT || 3000;
 if (!PORT) {
     console.error('PORT is not defined in .env file');
     process.exit(1);
@@ -40,6 +40,7 @@ app.post("/", async (req, res, next) => {
     let paintingData = fs.readFileSync('./paintingData.json');
     paintingData = JSON.parse(paintingData);
     let painting = paintingData[req.body.paintingID - 1];
+    // console.log(painting);
     //check if painting is bought
     if (painting.info.isBought) {
         return res.json({ mess: 'Bức tranh đã bán cho người khác. Rất xin lỗi bạn. Bạn vui lòng tải lại trang để cập nhật thông tin mới nhất nhé', status: 'error' });
@@ -48,9 +49,40 @@ app.post("/", async (req, res, next) => {
     if (+req.body.price < +painting.info.price) {
         return res.json({ mess: 'Giá bạn đưa ra không hợp lý', status: 'error' });
     }
-    //update bought status
-    paintingData[req.body.paintingID - 1].info.isBought = true;
-    fs.writeFileSync('./paintingData.json', JSON.stringify(paintingData));
+
+    // APPSCRIPT URL
+    const url = "https://script.google.com/macros/s/AKfycbz7Ks9iJpqdjyVOkW4oRWx4NOat3SmDxmPK7N5K63k6jJHniMuMM9N011_0Hg7CGB9Asw/exec";
+    try {
+
+        const r = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name: req.body.name,
+                phone: req.body.phone,
+                email: req.body.email,
+                paintingID: req.body.paintingID - 1,
+                price: req.body.price,
+                paintingName: painting.info.title,
+            })
+        })
+        console.log(r)
+        const j = await r.json();
+        console.log(j);
+        if (j.result == 'success') {
+            //update bought status
+            paintingData[req.body.paintingID - 1].info.isBought = true;
+            fs.writeFileSync('./paintingData.json', JSON.stringify(paintingData));
+            return res.json({ mess: 'Cảm ơn bạn đã quan tâm đến tranh của tôi. Tôi sẽ liên hệ với bạn sớm nhất có thể qua email hoặc số điện thoại bạn đã cung cấp', status: 'success' });
+        } else {
+            return res.json({ mess: 'Có lỗi xảy ra. Vui lòng thử lại', status: 'error' });
+        }
+    } catch (e) {
+        console.log(e);
+        return res.json({ mess: 'Có lỗi xảy ra. Vui lòng thử lại', status: 'error' });
+    }
 
     res.json({ test: "oke" })
 })
