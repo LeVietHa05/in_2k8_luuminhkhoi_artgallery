@@ -4,11 +4,7 @@
     "width": 3,
     "height": 2,
     "depth": 0.05,
-    "position": {
-      "x": 0,
-      "y": 1.3,
-      "z": 9.54
-    },
+    "position": { "x": 0, "y": 1.3, "z": 9.54 },
     "rotationY": 3.141592653589793,
     "info": {
       "title": "Tác giả: Lưu Minh Khôi (Nam)",
@@ -29,11 +25,7 @@
     "width": 1,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": -6.95,
-      "y": 1.3,
-      "z": 4.5
-    },
+    "position": { "x": -6.95, "y": 1.3, "z": 4.5 },
     "rotationY": 1.570796326794896,
     "info": {
       "title": "Lily",
@@ -47,7 +39,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "50x70cm",
-      "price": "3000000",
+      "price": "1000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -57,11 +49,7 @@
     "width": 0.8,
     "height": 1,
     "depth": 0.05,
-    "position": {
-      "x": 6.95,
-      "y": 1.3,
-      "z": 4.5
-    },
+    "position": { "x": 6.95, "y": 1.3, "z": 4.5 },
     "rotationY": -1.570796326794896,
     "info": {
       "title": "Garden cosmos",
@@ -75,7 +63,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "40x50cm",
-      "price": "3000000",
+      "price": "1000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -85,11 +73,7 @@
     "width": 1,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": 4,
-      "y": 1.3,
-      "z": 0
-    },
+    "position": { "x": 4, "y": 1.3, "z": 0 },
     "rotationY": 1.570796326794896,
     "info": {
       "title": "Sublime in tranquility",
@@ -103,7 +87,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "50x70cm",
-      "price": "",
+      "price": "2000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -113,11 +97,7 @@
     "width": 1,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": -6.95,
-      "y": 1.3,
-      "z": 0
-    },
+    "position": { "x": -6.95, "y": 1.3, "z": 0 },
     "rotationY": 1.570796326794896,
     "info": {
       "title": "White Cliffs of Dover",
@@ -131,7 +111,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "50x70cm",
-      "price": "",
+      "price": "1500000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -141,11 +121,7 @@
     "width": 1,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": 6.95,
-      "y": 1.3,
-      "z": 0
-    },
+    "position": { "x": 6.95, "y": 1.3, "z": 0 },
     "rotationY": -1.570796326794896,
     "info": {
       "title": "Hanoi's Old Quarter",
@@ -157,7 +133,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "50x70cm",
-      "price": "",
+      "price": "1500000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -167,11 +143,7 @@
     "width": 1,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": -3,
-      "y": 1.3,
-      "z": 4
-    },
+    "position": { "x": -3, "y": 1.3, "z": 4 },
     "rotationY": 0,
     "info": {
       "title": "Hydrangea",
@@ -184,7 +156,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "50x70cm",
-      "price": "1000000",
+      "price": "1500000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -194,11 +166,7 @@
     "width": 1,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": -4,
-      "y": 1.3,
-      "z": 0
-    },
+    "position": { "x": -4, "y": 1.3, "z": 0 },
     "rotationY": -1.570796326794896,
     "info": {
       "title": "Sunflower",
@@ -212,7 +180,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "50x70cm",
-      "price": "",
+      "price": "1000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -222,11 +190,7 @@
     "width": 0.8,
     "height": 1,
     "depth": 0.05,
-    "position": {
-      "x": -2,
-      "y": 1.3,
-      "z": -2.5
-    },
+    "position": { "x": -2, "y": 1.3, "z": -2.5 },
     "rotationY": 1.570796326794896,
     "info": {
       "title": "By the window",
@@ -239,21 +203,17 @@
       "paintingID": 8,
       "material": "Acylic on canvas",
       "size": "40x50cm",
-      "price": "2000000",
+      "price": "1500000",
       "isBuyAble": true,
       "isBought": false
     }
   },
   {
     "imgSrc": "./img/artwork9.webp",
-    "width": 1.2,
-    "height": 1.6,
+    "width": 1.6,
+    "height": 1.2,
     "depth": 0.05,
-    "position": {
-      "x": 3,
-      "y": 1.3,
-      "z": 4
-    },
+    "position": { "x": 3, "y": 1.3, "z": 4 },
     "rotationY": 0,
     "info": {
       "title": "Village reverie",
@@ -265,7 +225,7 @@
       "paintingID": 9,
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
-      "size": "60x80cm",
+      "size": "80x60cm",
       "price": "3000000",
       "isBuyAble": true,
       "isBought": false
@@ -276,11 +236,7 @@
     "width": 1.2,
     "height": 1.6,
     "depth": 0.05,
-    "position": {
-      "x": 1.4,
-      "y": 1.3,
-      "z": -6.95
-    },
+    "position": { "x": 1.4, "y": 1.3, "z": -6.95 },
     "rotationY": 0,
     "info": {
       "title": "Whispers of autumn",
@@ -293,7 +249,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "60x80cm",
-      "price": "2000000",
+      "price": "4000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -303,11 +259,7 @@
     "width": 1,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": -1.4,
-      "y": 1.3,
-      "z": -6.95
-    },
+    "position": { "x": -1.4, "y": 1.3, "z": -6.95 },
     "rotationY": 0,
     "info": {
       "title": "Verdant steps",
@@ -320,21 +272,17 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "50x70cm",
-      "price": "3000000",
+      "price": "2500000",
       "isBuyAble": true,
       "isBought": false
     }
   },
   {
     "imgSrc": "./img/artwork12.webp",
-    "width": 0.8,
-    "height": 1,
+    "width": 1,
+    "height": 0.8,
     "depth": 0.05,
-    "position": {
-      "x": 2,
-      "y": 1.3,
-      "z": -2.5
-    },
+    "position": { "x": 2, "y": 1.3, "z": -2.5 },
     "rotationY": -1.570796326794896,
     "info": {
       "title": "Trace",
@@ -346,7 +294,7 @@
       "paintingID": 12,
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
-      "size": "40x50cm",
+      "size": "50x40cm",
       "price": "2000000",
       "isBuyAble": true,
       "isBought": false
@@ -357,11 +305,7 @@
     "width": 1.4,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": -4.2,
-      "y": 1.3,
-      "z": -6.95
-    },
+    "position": { "x": -4.2, "y": 1.3, "z": -6.95 },
     "rotationY": 0,
     "info": {
       "title": "Spring beyond the Gate",
@@ -384,11 +328,7 @@
     "width": 1.4,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": 4.2,
-      "y": 1.3,
-      "z": -6.95
-    },
+    "position": { "x": 4.2, "y": 1.3, "z": -6.95 },
     "rotationY": 0,
     "info": {
       "title": "Ascent in Amber",
@@ -400,7 +340,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "70x70cm",
-      "price": "1000000 - 2000000",
+      "price": "4000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -410,11 +350,7 @@
     "width": 1.4,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": -2,
-      "y": 1.3,
-      "z": 2.5
-    },
+    "position": { "x": -2, "y": 1.3, "z": 2.5 },
     "rotationY": 1.570796326794896,
     "info": {
       "title": "Silent Anchorage",
@@ -427,7 +363,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "70x70cm",
-      "price": "1000000 - 2000000",
+      "price": "4000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -437,15 +373,11 @@
     "width": 1.4,
     "height": 1.4,
     "depth": 0.05,
-    "position": {
-      "x": 6.95,
-      "y": 1.3,
-      "z": -4.5
-    },
+    "position": { "x": 6.95, "y": 1.3, "z": -4.5 },
     "rotationY": -1.570796326794896,
     "info": {
-      "title": "Nhà",
-      "title_en": "Nhà",
+      "title": "Carrying Home",
+      "title_en": "Carrying Home",
       "poem": "",
       "description": "Straw leans by the path, next to walls that wear the faded colors of time. A lone figure steps through the gate, carrying the weight of an ordinary day. Nothing calls for attention, yet everything belongs—simple, steady, and whole.",
       "description_en": "Straw leans by the path, next to walls that wear the faded colors of time. A lone figure steps through the gate, carrying the weight of an ordinary day. Nothing calls for attention, yet everything belongs—simple, steady, and whole.",
@@ -454,7 +386,7 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "70x70cm",
-      "price": "2000000",
+      "price": "3000000",
       "isBuyAble": true,
       "isBought": false
     }
@@ -464,15 +396,11 @@
     "width": 1.2,
     "height": 1.6,
     "depth": 0.05,
-    "position": {
-      "x": -6.95,
-      "y": 1.3,
-      "z": -4.5
-    },
+    "position": { "x": -6.95, "y": 1.3, "z": -4.5 },
     "rotationY": 1.570796326794896,
     "info": {
-      "title": "Hoa",
-      "title_en": "Hoa",
+      "title": "Bloom of the Highlands",
+      "title_en": "Bloom of the Highlands",
       "poem": "",
       "description": "Earth and gold. The rapeseed flowers grown by the H’Mong people in Ha Giang already made for a striking centerpiece, but I also wanted to use a textured vase, a creation of the local ethnic people, to preserve the cultural soul of this painting.",
       "description_en": "Earth and gold. The rapeseed flowers grown by the H’Mong people in Ha Giang already made for a striking centerpiece, but I also wanted to use a textured vase, a creation of the local ethnic people, to preserve the cultural soul of this painting.",
@@ -481,34 +409,30 @@
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
       "size": "60x80cm",
-      "price": "2000000",
+      "price": "2500000",
       "isBuyAble": true,
       "isBought": false
     }
   },
   {
     "imgSrc": "./img/artwork18.webp",
-    "width": 1.2,
-    "height": 1.6,
+    "width": 1.6,
+    "height": 1.2,
     "depth": 0.05,
-    "position": {
-      "x": 2,
-      "y": 1.3,
-      "z": 2.5
-    },
+    "position": { "x": 2, "y": 1.3, "z": 2.5 },
     "rotationY": -1.570796326794896,
     "info": {
-      "title": "Thuyền 2",
-      "title_en": "Thuyền 2",
-      "poem": "Ai xui má đỏ , môi hồng <br>Để anh nhác thấy đem lòng thương yêu",
+      "title": "Golden Harbor",
+      "title_en": "Golden Harbor",
+      "poem": "",
       "description": "This painting is a tribute to the tireless fishermen of Vietnam. The boat, the faithful companion through countless tides, rests quietly beside the weathered pier, a silent witness to generations of fish, shrimp, and squids that have nourished the village. The late afternoon sun drapes the scene in a warm, golden glow, as the harbor breathes with the rhythm of labor and the resilience of life at sea. In this still moment, I seek to reveal not only the serene beauty of sunset, but the enduring spirit and character of those who call the waves their home.",
       "description_en": "This painting is a tribute to the tireless fishermen of Vietnam. The boat, the faithful companion through countless tides, rests quietly beside the weathered pier, a silent witness to generations of fish, shrimp, and squids that have nourished the village. The late afternoon sun drapes the scene in a warm, golden glow, as the harbor breathes with the rhythm of labor and the resilience of life at sea. In this still moment, I seek to reveal not only the serene beauty of sunset, but the enduring spirit and character of those who call the waves their home.",
       "year": "8/2025",
       "paintingID": 18,
       "material": "Acylic trên toan",
       "material_en": "Acylic on canvas",
-      "size": "60X80cm",
-      "price": "1000000",
+      "size": "80x60cm",
+      "price": "4000000",
       "isBuyAble": true,
       "isBought": false
     }
