@@ -71,12 +71,12 @@
         </div>
     </div>
 
-    <div id="intruction_con">
-        <span class="material-symbols-outlined" id="show_intruction">
+    <div id="instruction_con">
+        <span class="material-symbols-outlined" id="show_instruction">
             help
         </span>
         <div class="plr-1em" id="instruction_text" style="display: block;">
-            <p>Hướng dẫn / Intruction</p>
+            <p>Hướng dẫn / Instruction</p>
             <p>Nhấn phím mũi tên hoặc WASD để di chuyển / Use
                 <span class="material-symbols-outlined" style="float: center;">
                     open_with
@@ -107,9 +107,9 @@
                 style="border: red 10px solid; padding: 30px; text-align: center; font-size: 40px;color: red; border-radius: 12px;">
                 Đã Bán
             </div>
-            <div id="purchare_form_div" class="p-1em">
+            <div id="purchase_form_div" class="p-1em">
                 <legend style="font-size: 30px" id="translate-legend">Nếu bạn có hứng thú với bức tranh</legend>
-                <form action="/" method="post" id="purchare_form">
+                <form action="/" method="post" id="purchase_form">
                     <div class="row g-3 mb-3">
                         <div class="col">
                             <input type="text" class="form-control" placeholder="Tên - Name" aria-label="Tên"
@@ -144,7 +144,7 @@
                         <input type="number" class="form-control" id="price" value="1500000" step="100000">
                     </div>
                     <button type="submit" class="btn btn-primary" style="font-size: 1.4em">Đặt Mua -
-                        Purchare</button>
+                        Purchase</button>
                 </form>
             </div>
         </div>
@@ -168,9 +168,9 @@
     </div>
     <script>
         let soldPainting = [];
-        let purchare_btn = document.querySelector('#purchare_form button');
-        purchare_btn.addEventListener("click", (e) => {
-            purchare_btn.textContent = "Đang xử lý...";
+        let purchase_btn = document.querySelector('#purchase_form button');
+        purchase_btn.addEventListener("click", (e) => {
+            purchase_btn.textContent = "Đang xử lý...";
             e.preventDefault();
             soldPainting.push(document.querySelector('#paintingID').textContent);
             let email = document.querySelector('#email_address').value
@@ -200,11 +200,11 @@
                 .then(data => {
                     alert(data.mess);
                     if (data.status == "success") {
-                        document.querySelector("#purchare_form button").disabled = true;
+                        document.querySelector("#purchase_form button").disabled = true;
                         document.querySelector('#isSold').style.display = "block";
-                        purchare_btn.textContent = "Đã đặt mua";
+                        purchase_btn.textContent = "Đã đặt mua";
                     } else {
-                        purchare_btn.textContent = "Đặt Mua - Purchare";
+                        purchase_btn.textContent = "Đặt Mua - Purchase";
                     }
                 })
         })

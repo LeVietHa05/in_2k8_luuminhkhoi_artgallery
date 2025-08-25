@@ -53,7 +53,7 @@ img {
   transform: scale(1.1);
 }
 
-#intruction_con {
+#instruction_con {
   max-width: 300px;
   position: absolute;
   bottom: 10px;
@@ -67,7 +67,7 @@ img {
 #instruction_text {
   /* display: none; */
 }
-#show_intruction {
+#show_instruction {
   cursor: pointer;
   position: absolute;
   top: -20px;

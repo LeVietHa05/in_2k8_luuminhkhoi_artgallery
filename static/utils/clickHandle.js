@@ -69,7 +69,7 @@ document.querySelectorAll("input").forEach(input => {
     })
 })
 
-document.querySelector("#show_intruction").addEventListener('click', (e) => {
+document.querySelector("#show_instruction").addEventListener('click', (e) => {
     if (document.querySelector("#instruction_text").style.display == "block") {
         document.querySelector("#instruction_text").style.display = "none";
     }

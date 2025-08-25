@@ -32,20 +32,20 @@ export function displayPaintingInfo(data) {
     document.querySelector("#price").value = data.info.value;
     document.querySelector("#price").step = 100000;
     document.querySelector("#price").min = data.info.price;
-    purchare_btn.textContent = "Đặt Mua - Purchare"
+    purchase_btn.textContent = "Đặt Mua - Purchase"
 
     if (!data.info.isBuyAble) {
         document.querySelector('#isSold').style.display = "none";
-        document.querySelector("#purchare_form_div").style.display = "none";
+        document.querySelector("#purchase_form_div").style.display = "none";
         document.querySelector("#painting_description").style.display = "none";
     } else {
-        document.querySelector("#purchare_form_div").style.display = "block";
+        document.querySelector("#purchase_form_div").style.display = "block";
         if (data.info.isBought) {
-            document.querySelector("#purchare_form button").disabled = true;
+            document.querySelector("#purchase_form button").disabled = true;
             document.querySelector('#isSold').style.display = "block";
         } else {
             document.querySelector('#isSold').style.display = "none";
-            document.querySelector("#purchare_form button").disabled = false;
+            document.querySelector("#purchase_form button").disabled = false;
         }
     }
     // document.querySelector("#painting_title").textContent = data.info.title_en;
